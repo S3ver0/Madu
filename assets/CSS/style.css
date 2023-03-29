@@ -514,34 +514,22 @@
  }
 
  .skills_html{
-   width: 90%;
+   width: 30%;
  }
  .skills_css{
-   width: 80%;
+   width: 20%;
  }
  .skills_js{
-   width: 50%;
- }
- .skills_react{
-   width: 40%;
+   width: 25%;
  }
  .skills_php{
    width: 40%;
  }
  .skills_node{
-   width: 60%;
- }
- .skills_firebase{
-   width: 50%;
+   width: 0%;
  }
  .skills_python{
-   width: 30%;
- }
- .skills_figma{
-   width: 90%;
- }
- .skills_sketch{
-   width: 50%;
+   width: 10%;
  }
  .skills_photoshop{
    width: 40%;

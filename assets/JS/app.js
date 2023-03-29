@@ -62,36 +62,10 @@ const navMenu = document.getElementById('nav-menu'),
                 tab.classList.add('qualification_active')
             })
         })
-
-               /*           ============================== SERVICES MODAL ================================== */
-
-               const modalViews = document.querySelectorAll('.services_modal'),
-                     modalBtns = document.querySelectorAll('.services_button'),
-                     modalCloses = document.querySelectorAll('.services_modal-close')
-
-                let modal = function(modalClick){
-                    modalViews[modalClick].classList.add('active-modal')
-                }
-
-                    modalBtns.forEach((modalBtn, i) => {
-                modalBtn.addEventListener('click', () => {
-                    modal(i)
-                })
-            })
-
-                modalCloses.forEach((modalCloses) => {
-                     modalCloses.addEventListener('click', () =>{
-                     modalViews.forEach((modalView) =>{
-                     modalView.classList.remove('active-modal')
-                })
-            })
-        })
-
-
         /*============================ PORTFOLIO SWIPER ============================== */
          const swiper = new Swiper('.portfolio_container', {
               // Optional parameters
-       
+        
               loop: true,
 
               // If we need pagination
@@ -107,23 +81,6 @@ const navMenu = document.getElementById('nav-menu'),
              },
      
         });
-
-    //         var swiper = new Swiper(".portfolio_container", {
-    //   cssMode: true,
-    //   navigation: {
-    //     nextEl: ".swiper-button-next",
-    //     prevEl: ".swiper-button-prev",
-    //   },
-    //   pagination: {
-    //     el: ".swiper-pagination",
-    //   },
-    //   mousewheel: true,
-    //   keyboard: true,
-    // });
-  
-        /*===================== TESTIMONIAL ================== */
-           
-
         /*================================== SCROLL SECTION ACTIVE LINK ====================== */
         const sections = document.querySelectorAll('section[id]')
 
