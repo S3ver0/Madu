@@ -623,8 +623,6 @@
    color: var(--first-color);
  }
 
- /*==================== SERVICES ================*/
-
  /*==================== PORTFOLIO ========================*/
 
  .portfolio_container{
@@ -687,13 +685,6 @@
  .swiper-pagination-bullets .swiper-pagination-bullet{
   background-color: var(--first-color);
  }
-
-  
- 
-
-
-/*=================================  PROJECT ON MIND ====================*/
-
 /*=============================== FOOTER ==========================*/
 .footer{
   padding-top: 2rem;
@@ -752,8 +743,6 @@
  .footer_link{
   color: #FFF;
  }
-
- /*============================ TESTIMONIAL =================================*/
 
  /*=========================== CONTACT ME ===================*/
  .contact_container{
